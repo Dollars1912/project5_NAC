@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Popup Login</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+	<div class="nav">
+		<ul>
+			<li><a href="javascript:void(0)" onClick="showBox()">Login</a></li>
+		</ul>
+	</div>
+
+
+	<div class="event" id="login_box" style="display: none;">
+		<div class="login">
+			<div class="title">
+				<span class="t_txt">Login</span>
+				<span class="del" onClick="deleteLogin()">X</span>
+			</div>
+			<form action="" method="post">
+				<input type="text" name="" id="" value="" placeholder="Please enter your username"/>
+				<input type="password" name="" id="" value="" placeholder="Please enter your password"/>
+				<input type="button" name="" id="" value="Login" class="btn" />
+
+				<a href="javascript:void(0)" class="wapper" onclick='obj.sweep()'>Register</a>
+			</form>
+		</div>
+	</div>
+
+	<div class="bg_color" onClick="deleteLogin()" id="bg_filter" style="display: none;"></div>
+
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	
+<div style="text-align:center;">
+<p>Design: Zhe WANG  &copy Deakin University student!!!!!</p>
+</div>
+</body>
+</html>
